@@ -13,7 +13,10 @@ const NavBar = () => {
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <Link class="nav-link active" aria-current="page" to="#">Add Patient</Link>
+          <Link class="nav-link active" aria-current="page" to="/">Add Patient</Link>
+        </li>
+        <li class="nav-item">
+          <Link class="nav-link active" aria-current="page" to="/view">View Patient</Link>
         </li>
       </ul>
     </div>
